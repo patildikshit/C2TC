@@ -3,7 +3,7 @@ abstract class Mumbai_Rules
 {
 	abstract void speedlimit();
 	abstract void rashdriving();
-	
+	void slowmoving()
 	{
 		System.out.println("no fine");
 	}
@@ -23,7 +23,7 @@ public class Seltos extends Mumbai_Rules
 		 Seltos s=new Seltos();
 		 s.speedlimit();
 		 s.rashdriving();
-		 
+		 s.slowmoving();
 
 	}
 
